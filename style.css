@@ -61,6 +61,7 @@ a {
 }
 
 .videoTitle {
+    text-align: center;
     width: 391px;
     font-family: "MedievalSharp";
     color: black;
@@ -78,4 +79,29 @@ a {
 iframe {
     border-radius: 25px;
     box-shadow: 0px 0px 20px gray;
+}
+
+#neurohemmoragePrvw1 {
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 25px;
+    transition: transform .2s; /* Animation */
+}
+
+#neurohemmoragePrvw1:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#shimmerFluke {
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 25px;
+    transition: transform .2s; /* Animation */
+}
+
+#shimmerFluke:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+img {
+    border-radius: 25px 25px 0px 0px;
 }
